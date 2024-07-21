@@ -30,3 +30,13 @@ The agent was trained on a RTX 4090 GPU for 45 minutes on less than 300 episodes
 Much longer training is required to achieve decent performance.
 
 ![](asset/pacman.gif)
+
+Note: for simplier problems, ie no images as input, we can use a simple fully connected network:
+- model input = vector corresponding to the state parameters
+- model output = vector of size the number of actions
+
+Applied to Gymnasium lunar-landing, we use a network with 3 dense layers. The input is a vector of size 8 (module coordinates x and y, linear velocity in x and y, angle, angular velocity and 2 booleans indicating whether each leg is in contact with the ground) while the output is of size 4 (4 actions possible with main engine, left engine, right engine and do nothing).
+
+The resulting training is much lighter and we can teach an agent to reach the landing pad.
+
+![](asset/lunar.gif)
