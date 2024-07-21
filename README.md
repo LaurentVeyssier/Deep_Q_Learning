@@ -6,7 +6,7 @@ This project is taken from [Udemy AI course](https://www.udemy.com/course/artifi
 # Project Description
 
 We will use a deep convolutional Q Learning model to train a model on PacMan.
-The Atari PacMan game is obtained through gymnasium package, itself derived from OpenAI gym library for reinforcement learning.
+The Atari PacMan game with its reward model is obtained through gymnasium package, itself derived from OpenAI gym library for reinforcement learning.
 
 Our objective is to train a DCQN model to play PacMan using reinforcement learning.
 Images are fed to the model which predicts the action to implement.
