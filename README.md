@@ -19,13 +19,14 @@ The model is composed of 4 CNN blocks (Convolution layer followed by a batch nor
 
 # Reinforcement learning algorithm
 
-- Agent with local and target DCQ networks
+- Agent with local and target DCQ networks for training
+- rewards as per gymnasium library
 - replay memory
-- epsilon greedy action selection from the model output
+- epsilon greedy selection of the model recommended action
 
 # results
 
-The agent was trained for 45' on a limited number of episodes for demonstration purpose.
+The agent was trained on a RTX 4090 GPU for 45 minutes on less than 300 episodes for demonstration purpose.
 Much longer training is required to achieve decent performance.
 
 ![](asset/pacman.gif)
