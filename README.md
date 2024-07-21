@@ -1,7 +1,7 @@
 # Deep_Q_Learning
 Reinforcement learning with Deep Convolutional Q Learning model 
 
-This project is taken from [Udemy]()
+This project is taken from [Udemy AI course](https://www.udemy.com/course/artificial-intelligence-az/)
 
 # Project Description
 
