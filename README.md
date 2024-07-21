@@ -28,4 +28,4 @@ The model will be composed of 4 CNN blocks (Convolution layer followed by a batc
 The agent was trained up to a low score of 400 for demonstration purpose.
 Much longer training is required to achieve decent performance.
 
-![](pacman_video.mp4)
+![](asset/pacman_video.mp4)
