@@ -13,7 +13,7 @@ Images are fed to the model which predicts the action to implement.
 
 # DCQM Model design
 
-The model will be composed of 4 CNN blocks (Convolution layer followed by a batch normalization step and a ReLU rectifier). After a flattening step, the signal will feed into a fully dense neural net with 2 layers.
+The model is composed of 4 CNN blocks (Convolution layer followed by a batch normalization step and a ReLU rectifier). After a flattening step, the signal is feed into a fully dense neural net with 2 layers.
 - model input = game-generated RGB images of resolution 210 x 160 transformed to 128 x 128 RGB images
 - model output = vector with size equal to the number of possible actions (9 in total)
 
