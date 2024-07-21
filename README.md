@@ -25,7 +25,7 @@ The model will be composed of 4 CNN blocks (Convolution layer followed by a batc
 
 # results
 
-The agent was trained up to a low score of 400 for demonstration purpose.
+The agent was trained for 45' on a limited number of episodes for demonstration purpose.
 Much longer training is required to achieve decent performance.
 
 ![](asset/pacman.gif)
