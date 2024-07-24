@@ -17,6 +17,11 @@ The model is composed of 4 CNN blocks (Convolution layer followed by a batch nor
 - model input = game-generated RGB images of resolution 210 x 160 transformed to 128 x 128 RGB images
 - model output = vector with size equal to the number of possible actions (9 in total)
 
+# Core components
+
+- Game environment: this is managed by the gymnasium library. It provides a fresh state (an image for PacMan or key game parameters for LunarLanding) of the game upon reset and the next state upon an action. It also returns the reward gained from the played action. Finally the env returns a "done" flag which indicates the game status (game over or not)
+- Agent: This is our AI player powered by our DCQM network. It returns the probability distribution over the possible actions given a state as an input. During training, the agent learns to generate the best actions to maximize the rewards
+
 # Reinforcement learning algorithm
 
 - Agent with local and target DCQ networks for training
